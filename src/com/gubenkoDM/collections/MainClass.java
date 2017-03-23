@@ -15,5 +15,6 @@ public class MainClass {
         //Linkedlist test
         LinkedListClass llc=new LinkedListClass();
         llc.test();
+
     }
 }

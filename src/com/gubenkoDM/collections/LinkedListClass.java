@@ -23,6 +23,14 @@ public class LinkedListClass {
         printCollection(ll);
 
 
+        LinkedList<Cat> ll2= (LinkedList<Cat>) ll.clone();
+        printCollection(ll2);
+
+        Cat cat=ll.element();
+        System.out.println(cat.getSize()+" "+cat.getAge());
+
+        ll.offer(new Cat(3,3));
+        printCollection(ll);
 
     }
 }
